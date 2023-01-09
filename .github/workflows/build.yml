@@ -43,3 +43,5 @@ jobs:
           tags: ghcr.io/santhoshnath/github-runner:${{ matrix.tag }}
           cache-to: type=gha,ignore-error=true
           cache-from: type=gha
+          platforms: |
+            linux/amd64
